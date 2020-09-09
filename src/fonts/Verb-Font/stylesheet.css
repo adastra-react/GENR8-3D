@@ -1,0 +1,75 @@
+/*
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Yellow Design Studio. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Yellow Design Studio
+ *
+ *
+ *
+ *
+ */
+
+
+
+
+@font-face {
+    font-family: 'verbcondregular';
+    src: url('verbcondregular-webfont.eot');
+    src: url('verbcondregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('verbcondregular-webfont.woff') format('woff'),
+         url('verbcondregular-webfont.ttf') format('truetype'),
+         url('verbcondregular-webfont.svg#verbcondregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'verblight_italic';
+    src: url('verblight-italic-webfont.eot');
+    src: url('verblight-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('verblight-italic-webfont.woff') format('woff'),
+         url('verblight-italic-webfont.ttf') format('truetype'),
+         url('verblight-italic-webfont.svg#verblight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'verbcondregular_italic';
+    src: url('verbcondregular-italic-webfont.eot');
+    src: url('verbcondregular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('verbcondregular-italic-webfont.woff') format('woff'),
+         url('verbcondregular-italic-webfont.ttf') format('truetype'),
+         url('verbcondregular-italic-webfont.svg#verbcondregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'verblight';
+    src: url('verblight-webfont.eot');
+    src: url('verblight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('verblight-webfont.woff') format('woff'),
+         url('verblight-webfont.ttf') format('truetype'),
+         url('verblight-webfont.svg#verblight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

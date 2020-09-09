@@ -1,0 +1,70 @@
+@font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Regular.otf);
+  }
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+    margin-top: 2px;
+    background-color: white;
+
+   
+}
+
+.header-cart{
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon{
+    color: #2d3691;
+}
+
+.cart-number{
+    font-family: verFont;
+    font-size: 20px;
+    color: black;
+}
+
+.header-cart-link{
+    text-decoration: none;
+}
+
+.band-logo{
+    width: 60px;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    padding: 10px;
+}
+
+.nav-link{
+    margin: 0 30px;
+    font-family: cityboys;
+    color: black;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #2d3691;
+}
+
+.active{
+    color: #2d3691;
+}

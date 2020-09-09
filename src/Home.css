@@ -1,0 +1,51 @@
+@font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Light.otf);
+  }
+
+.home{
+    display: flex;
+    align-items: center;
+    width: ;
+    height: 700px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/homebgd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-txt{
+    margin-left: 190px;
+    color: white;
+}
+
+.main-txt{
+    font-family: verFont;
+    font-size: 100px;
+    font-weight: 900 !important;
+    margin-bottom: 0;
+}
+
+.sec-text{
+    padding-bottom: 30px;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 18px 45px;
+    border: 3px solid white;
+    font-family: verfont;
+    font-weight: 800;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    /* border: 3px solid black; */
+    transition: 500ms ease;
+}

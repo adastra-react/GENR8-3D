@@ -1,0 +1,20 @@
+.products{
+    margin-top: 60px;
+}
+
+.product-area-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 800px;
+}
+
+.main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    height: 200px;
+}

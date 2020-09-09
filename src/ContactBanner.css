@@ -1,0 +1,63 @@
+@font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Regular.otf);
+  }
+
+.contact-banner{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: #f8f9fa;
+}
+
+.contact-txt{
+    font-family: cityboys;
+    font-weight: 100;
+}
+
+.social-icons{
+    margin: 0 4px;
+    font-size: 30px !important;
+    color: black;
+}
+
+.banner-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+}
+
+.banner-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-email > h3{
+    color: black;
+}
+
+
+.banner-link-email{
+    text-decoration: none;
+    
+}
+
+.contact-icon{
+    color: #2d3691;
+    font-size: 19px !important;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Light.otf);
+  }
+
+.cart-notify{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cart-notify > h2, p{
+    font-family: cityboys;
+}

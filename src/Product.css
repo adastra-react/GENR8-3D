@@ -1,0 +1,59 @@
+@font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Light.otf);
+  }
+
+.product{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 400px;
+    background-color: white;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    ;
+    margin: 0 30px;
+}
+
+.img-cont{
+
+}
+
+.product-price{
+    display: flex;
+    justify-content: center;
+}
+
+.product-img{
+    height: 400px;
+}
+
+.info > h2{
+    font-family: cityboys;
+}
+
+.img-cont, .info, .product-rating, .add-cart-btn{
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.add-cart-btn > button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 3px solid black;
+    font-family: verFont;
+    font-weight: 800;
+}
+
+.add-cart-btn > button:hover{
+    background-color: black;
+    color: white;
+    transition: 600ms ease;
+}
