@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Logo from './images/logo.png'
+import Logo from './images/logo-2.png'
 import { Link } from 'react-router-dom'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import { useStateValue } from './StateProvider';
@@ -12,7 +12,7 @@ function Header() {
         <div className="header">
 
             <div className="logo-container">
-                <Link>
+                <Link to="/">
                   <img className="band-logo" src={Logo} alt=""/>
                 </Link>
                
@@ -29,7 +29,7 @@ function Header() {
                 </Link>
 
                 <Link className="nav-links">
-                    <h4 className="nav-link">About Us</h4>
+                    <h4 className="nav-link">About us</h4>
                 </Link>
 
                 <Link className="nav-links">

@@ -1,0 +1,8 @@
+.checkout-product{
+    display: flex;
+    border-top: 2px solid #f8f9fa;
+}
+
+.info-body{
+    margin-top: 70px;
+}

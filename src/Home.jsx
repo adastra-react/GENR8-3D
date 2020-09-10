@@ -12,12 +12,15 @@ function Home() {
                 <br/>
                 <span>Lorem ipsum dolor sit amet.</span>
                 </p>
-                <Link to="/products">
+                
                 <div>
+                    <Link to="/products">
                     <button className="btn">SHOP NOW</button>
+                    </Link>
+                    
                     {/* <button></button> */}
                 </div>
-                </Link>
+             
                 
             </div>
         </div>

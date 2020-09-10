@@ -4,6 +4,7 @@ import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct'
 import './Checkout.css'
 import Subtotal from './Subtotal'
+import CurrencyFormat from "react-currency-format"
 
 
 
@@ -21,9 +22,10 @@ function Checkout() {
                    </div>
                ):(
                    <div>
-                       <h2 className="cart-notify">Your shopping basket</h2>
-                       {/* list all checkout products */}
-                       {basket?.map((item) => (
+                       <h2 className="cart-notify">Your shopping basket🛒</h2>
+                    <div className="checkout-sub">
+                    <div>
+                    {basket?.map((item) => (
                            <CheckoutProduct
                                 id={item.id}
                                 title={item.title}
@@ -32,17 +34,19 @@ function Checkout() {
                                 rating={item.rating}
                             />
                        ))}
-                   </div>
-               )}
-            </div>   
+                    </div>
 
-            
-                    {basket.length > 0 && (
-                        <div className="subtotal">
+                    <div className="subtotal-cont">
+                            {basket.length > 0 && (
+                        <div className="subtotal-box">
                             <Subtotal />
                         </div>
-                    )}    
-            
+                        )}    
+                    </div>
+                    </div> 
+                   </div>
+               )}
+            </div>            
         </div>
     )
 }
