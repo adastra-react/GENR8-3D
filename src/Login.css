@@ -1,0 +1,126 @@
+@font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Light.otf);
+  }
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: whitesmoke;
+}
+
+.email-input{
+  
+    width: 250px;
+    height: 60px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    z-index: 20;
+    background-color: white;
+
+}
+
+.login-text{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.password-input{
+    
+    width: 250px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    height: 60px;
+    background-color: white;
+}
+
+.input{
+    border: none;
+    height: 35px;
+    width: 250px;
+
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 3px none;
+    outline: none;
+    background-color: transparent;
+  }
+
+.input[type=text], input[type=password]{
+    color: #c4c3c3;
+    padding: 5px 0px;
+    transition: 700ms;
+}
+
+.input::placeholder{
+    color: #c4c3c3;
+}
+
+.logo{
+    height: 90px;
+}
+
+.login-logo{
+    height: 160px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    
+}
+
+.login-info{
+  
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border-top-left-radius: 40px;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   background-color: white;
+}
+
+.login-container{
+    
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ), url(./images/background2.jpg);
+    -webkit-box-shadow: 4px 57px 29px -12px rgba(0,0,0,0.47);
+    -moz-box-shadow: 4px 57px 29px -12px rgba(0,0,0,0.47);
+    box-shadow: 4px 57px 29px -12px rgba(0,0,0,0.47);
+}
+
+.login-btn{
+    width: 273px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-btn:focus{
+    border: none;
+    outline: none;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 500ms ease-in-out;
+}

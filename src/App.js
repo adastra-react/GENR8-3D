@@ -5,15 +5,9 @@ import './App.css'
 import Header from './Header'
 import  Home from  './Home'
 import Products from './Products'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faFacebookF } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CheckoutProduct from './CheckoutProduct'
 import Checkout from './Checkout'
-
-
-library.add(fab, faCheckSquare, faCoffee, faFacebookF)
+import Login from './Login'
 
 
 function App() {
@@ -21,6 +15,18 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/contact">
+
+          </Route>
+
+        <Route path="/about">
+
+        </Route>
+
+        <Route path = "/login">
+              <Login />
+          </Route>
+          
         <Route path = "/checkout">
               <ContactBanner/>
               <Header />

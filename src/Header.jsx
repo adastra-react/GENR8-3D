@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import Logo from './images/logo-2.png'
 import { Link } from 'react-router-dom'
+import PersonIcon from '@material-ui/icons/Person';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import { useStateValue } from './StateProvider';
 
@@ -16,6 +17,15 @@ function Header() {
                   <img className="band-logo" src={Logo} alt=""/>
                 </Link>
                
+            </div>
+            <div className="header-guest">
+                <Link to={'/login'}> 
+                    <div onClick={ {/* handleAuthentication */}} className='header-guest-option'>
+                        <span>Hello{/* {!user? 'Guest' : user.email} */} </span>
+                        <span>{/* {user ? 'Sign out' : 'Sign In'} */}
+                       </span>
+                    </div>
+                </Link>
             </div>
             
 
