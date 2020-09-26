@@ -1,6 +1,7 @@
-import React from 'react'
-import './Products.css'
-import Product from './Product'
+import React from 'react';
+import './Products.css';
+import Product from './Product';
+import Keychain from './images/keychain.png';
 
 function Products() {
     return (
@@ -19,52 +20,52 @@ function Products() {
                 <div className="product-area-row">
                         <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
+                        />
+ 
+<Product 
+                        id='12524'
+                        title="Keychain"
+                        price={75}
+                        rating={5}
+                        image={Keychain}
                         />
 
 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
-                        />
-
-<Product 
-                        id='12524'
-                        title="Iphone X"
-                        price={490.56}
-                        rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
                 </div>
 
                 <div className="product-area-row">
                 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
 
 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
 
 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
 
                 </div>
@@ -72,26 +73,26 @@ function Products() {
                 <div className="product-area-row">
                 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
 
 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
 
 <Product 
                         id='12524'
-                        title="Iphone X"
-                        price={490.56}
+                        title="Keychain"
+                        price={75}
                         rating={5}
-                        image="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                        image={Keychain}
                         />
 
                 </div>
@@ -100,4 +101,4 @@ function Products() {
     )
 }
 
-export default Products
+export default Products;

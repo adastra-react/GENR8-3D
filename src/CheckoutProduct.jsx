@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { useStateValue } from './StateProvider';
-import './CheckoutProduct.css'
+import './CheckoutProduct.css';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 
 function CheckoutProduct({id, title, image, price, rating}) {
@@ -33,7 +33,7 @@ function CheckoutProduct({id, title, image, price, rating}) {
                     {
                         Array(rating)
                         .fill()
-                        .map((_) => (
+                         .map((_) => (
                             <StarBorderIcon/>
                         ))
                     }
@@ -50,4 +50,4 @@ function CheckoutProduct({id, title, image, price, rating}) {
     )
 }
 
-export default CheckoutProduct
+export default CheckoutProduct;

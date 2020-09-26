@@ -1,7 +1,7 @@
-import React from 'react'
-import './Product.css'
+import React from 'react';
+import './Product.css';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
-import { useStateValue } from "./StateProvider"
+import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, price, rating, image }) {
     const [{}, dispatch] = useStateValue();
@@ -55,7 +55,7 @@ function Product({ id, title, price, rating, image }) {
             <div className="product-price">
                 <h2>${price}</h2>
             </div>
-
+ 
             <div className="product-rating">
                 {
                     Array(rating)
@@ -77,4 +77,4 @@ function Product({ id, title, price, rating, image }) {
     )
 }
 
-export default Product
+export default Product;

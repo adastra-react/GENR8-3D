@@ -1,6 +1,6 @@
-import React from 'react'
-import './Subtotal.css'
-import CheckoutProduct from './CheckoutProduct'
+import React from 'react';
+import './Subtotal.css';
+import CheckoutProduct from './CheckoutProduct';
 import CurrencyFormat from 'react-currency-format'
 import { useStateValue } from './StateProvider';
 import { getBasketTotal } from './Reducer';
@@ -26,7 +26,7 @@ function Subtotal() {
                 thousandSeparator={true}
                 prefix={'$'}
              />
- 
+  
              <button className="checkout-btn">proceed to checkout</button>
         </div>
     )

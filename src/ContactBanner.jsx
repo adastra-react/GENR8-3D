@@ -1,6 +1,6 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './ContactBanner.css'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './ContactBanner.css';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import YouTubeIcon from '@material-ui/icons/YouTube';
@@ -17,7 +17,7 @@ function ContactBanner() {
                 <Link to = "">
                    <FacebookIcon className="social-icons" />
                 </Link>
-
+ 
                 <Link>
                     <TwitterIcon className="social-icons"/>
                 </Link>

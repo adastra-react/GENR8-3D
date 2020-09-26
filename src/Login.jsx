@@ -49,7 +49,7 @@ function Login({ email, setEmail, password, SetPassword, handleLogin, handleSign
                                     <p>Don't have an account?<span onClick={() => setHasAccount(!hasAccount)}><strong>Sign up</strong></span></p>
                                 </div>
                                 
-                            
+                             
                         ) : (
                                 <div className="btn-cont">
                                      <button onClick={handleSignup} className="login-btn">Sign up</button>
@@ -68,4 +68,4 @@ function Login({ email, setEmail, password, SetPassword, handleLogin, handleSign
     )
 }
 
-export default Login
+export default Login;

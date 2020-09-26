@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import Logo from './images/logo-2.png'
-import { Link } from 'react-router-dom'
+import Logo from './images/logo-2.png';
+import { Link } from 'react-router-dom';
 import PersonIcon from '@material-ui/icons/Person';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import { useStateValue } from './StateProvider';
@@ -16,7 +16,7 @@ function Header({ handleLogout }) {
                 <Link to="/">
                   <img className="band-logo" src={Logo} alt=""/>
                 </Link>
-
+ 
                 <Link>
                     <div>
                         <h1></h1>
