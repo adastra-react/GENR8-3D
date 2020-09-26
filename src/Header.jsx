@@ -6,7 +6,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import { useStateValue } from './StateProvider';
 
-function Header() {
+function Header({ handleLogout }) {
     const [{ basket }, dispatch] = useStateValue();
  
     return (
@@ -16,14 +16,18 @@ function Header() {
                 <Link to="/">
                   <img className="band-logo" src={Logo} alt=""/>
                 </Link>
+
+                <Link>
+                    <div>
+                        <h1></h1>
+                    </div>
+                </Link>
                
             </div>
             <div className="header-guest">
                 <Link to={'/login'}> 
                     <div onClick={ {/* handleAuthentication */}} className='header-guest-option'>
-                        <span>Hello{/* {!user? 'Guest' : user.email} */} </span>
-                        <span>{/* {user ? 'Sign out' : 'Sign In'} */}
-                       </span>
+                        
                     </div>
                 </Link>
             </div>
@@ -56,6 +60,13 @@ function Header() {
                         <span className="cart-number">{basket?.length}</span>
                     </div>
                 </Link>
+
+                <Link>
+                <div>
+                    <button onClick={handleLogout} className="logout-btn">Logout</button>
+                </div>
+                </Link>
+                
 
                 
             </div>

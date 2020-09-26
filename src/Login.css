@@ -93,6 +93,19 @@ input[type=text]:focus, input[type=password]:focus {
    background-color: white;
 }
 
+.btn-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-cont{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .login-container{
     
     height: 500px;
@@ -111,6 +124,12 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: black;
     border: none;
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.err-mssg{
+    color: black;
+    font-family: cityboys;
 }
 
 .login-btn:focus{
